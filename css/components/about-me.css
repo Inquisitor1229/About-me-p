@@ -1,0 +1,96 @@
+.about-me {
+  max-width: 1170px;
+  margin: 128px auto 0; }
+  .about-me__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; }
+  .about-me__photo-man {
+    padding: 0 5%; }
+  .about-me__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 54.25%;
+    min-width: 48.65%;
+    margin-top: 27px; }
+  .about-me__title {
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-weight: 800;
+    letter-spacing: -1.2px; }
+  .about-me__subtitle {
+    text-transform: uppercase;
+    color: #dedede;
+    font-weight: 700;
+    font-size: 92px;
+    margin-top: -3px;
+    letter-spacing: -2.8px; }
+  .about-me__text {
+    margin-top: 19px;
+    max-width: 475px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 2; }
+  .about-me__btns {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1px; }
+  .about-me__me-btn {
+    border: 1px solid #6a696b;
+    border-radius: 25px;
+    padding: 16px 20px 14px 20px;
+    letter-spacing: 0.45px;
+    transition: all 0.6s ease; }
+  .about-me__resume-btn {
+    margin-left: 15px;
+    padding: 16px 25px 14px 25px;
+    border: 1px solid #6a696b;
+    border-radius: 25px;
+    letter-spacing: 0.45px;
+    transition: all 0.6s ease; }
+
+@media (max-width: 1220px) {
+  .about-me {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 1140px) {
+  .about-me__description {
+    font-size: 72px; }
+  .about-me__subtitle {
+    font-size: 80px; } }
+
+@media (max-width: 960px) {
+  .about-me {
+    margin-top: 90px; }
+    .about-me__title {
+      font-size: 30px; }
+    .about-me__subtitle {
+      font-size: 50px; }
+    .about-me__text {
+      max-width: 340px;
+      margin-top: 15px; }
+    .about-me__btns a {
+      font-size: 14px; }
+    .about-me__resume-btn {
+      margin-left: 12px; } }
+
+@media (max-width: 720px) {
+  .about-me {
+    margin-top: 35px; }
+    .about-me__photo-man {
+      display: none; }
+    .about-me__description {
+      margin-left: 10px;
+      max-width: 100%; }
+    .about-me__title, .about-me .about-me__subtitle, .about-me .about-me__text, .about-me .about-me__btns {
+      align-self: center;
+      text-align: center; }
+    .about-me__text {
+      max-width: 100%; }
+    .about-me__btns {
+      margin-top: 10px;
+      justify-content: center; } }
+
+/*# sourceMappingURL=about-me.css.map */

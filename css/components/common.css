@@ -1,0 +1,68 @@
+.btn-container {
+  padding-right: 16px;
+  padding-bottom: 15px; }
+
+.btn {
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 999px;
+  letter-spacing: 0.45px;
+  transition: all 0.6s ease; }
+  .btn > span {
+    transition: all 0.6s ease; }
+  .btn--hire-me, .btn--my-resume {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    font-weight: 500; }
+  .btn--hire-me {
+    padding-left: 47px;
+    padding-right: 45px; }
+  .btn--my-resume {
+    padding-left: 26px;
+    padding-right: 28px; }
+  .btn--bg-color:hover {
+    box-shadow: 3px 3px 10px #242424;
+    background-color: #242424; }
+  .btn--bg-color:hover span {
+    color: white; }
+
+.social {
+  display: flex;
+  flex-wrap: wrap; }
+  .social > a {
+    flex-shrink: 0; }
+  .social__btn {
+    transition: all 0.4s ease; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  .menu__item > a,
+  .menu__item a > span {
+    text-decoration: none;
+    transition: all 0.5s ease; }
+  .menu__elements {
+    display: flex;
+    align-items: center; }
+    .menu__elements li {
+      list-style: none; }
+    .menu__elements li:last-child {
+      margin-right: 0px; }
+
+@media (max-width: 960px) {
+  .btn--hire-me, .btn--my-resume {
+    font-size: 15px;
+    padding: 12px 30px; } }
+
+@media (min-width: 720px) {
+  .btn--bg-color-m:hover {
+    box-shadow: 3px 3px 10px #242424;
+    background-color: #242424; }
+  .btn--bg-color-m:hover span {
+    color: white; } }
+
+/*# sourceMappingURL=common.css.map */

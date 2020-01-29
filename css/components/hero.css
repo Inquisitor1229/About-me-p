@@ -1,0 +1,128 @@
+.hero {
+  margin: 0 auto;
+  max-width: 1170px;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden; }
+  .hero__title {
+    display: none; }
+  .hero__container {
+    max-width: 1170px;
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    margin-bottom: -5px; }
+  .hero__greeting {
+    margin-top: 89px;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%; }
+  .hero__header {
+    font-size: 32px;
+    font-weight: 300;
+    color: #242424; }
+  .hero__subhead {
+    font-size: 46px;
+    font-weight: 700;
+    color: #242424;
+    letter-spacing: -1.2px;
+    margin-top: 4px; }
+  .hero__description {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: 0.25px;
+    margin-left: 3px; }
+  .hero__btns {
+    margin-top: 40px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; }
+    .hero__btns a {
+      text-decoration: none; }
+    .hero__btns span {
+      font-size: 16px;
+      color: #6a696b; }
+  .hero__photo-man {
+    margin-top: 1px;
+    margin-right: -12px; }
+
+.social--hero {
+  margin-top: 27px;
+  margin-left: 2px;
+  max-width: 350px; }
+  .social--hero > a {
+    margin-right: 10px;
+    margin-top: 5px; }
+  .social--hero > a:last-child {
+    margin-right: 0; }
+
+.social__btn--hero:hover {
+  background-color: #2b2b2b; }
+
+.social__btn--be {
+  background-color: #1869ff; }
+
+.social__btn--dribble {
+  background-color: #e51a68; }
+
+.social__btn--in {
+  background-color: #007bb6; }
+
+.social__btn--fb {
+  background-color: #3a5898; }
+
+.social__btn--instagram {
+  background-color: #13578a; }
+
+.social__btn--twitter {
+  background-color: #56acef; }
+
+@media (max-width: 1220px) {
+  .hero {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 960px) {
+  .hero__greeting {
+    margin: 50px 0px 10px 15px; }
+  .hero__header {
+    font-size: 25px; }
+  .hero__subhead {
+    font-size: 38px; }
+  .hero__description {
+    font-size: 13px; }
+  .social--hero {
+    margin-top: 20px;
+    max-width: 300px; }
+  .hero__btns {
+    margin-top: 30px;
+    margin-bottom: 0; } }
+
+@media (max-width: 800px) {
+  .hero__photo-man {
+    display: none; }
+  .hero__greeting {
+    max-width: 100%; } }
+
+@media (max-width: 720px) {
+  .hero {
+    padding-left: 0; } }
+
+@media (max-width: 540px) {
+  .hero__header {
+    font-size: 20px; }
+  .hero__subhead {
+    font-size: 33px; }
+  .hero__description {
+    font-size: 10px; }
+  .hero__me-btn, .hero__resume-btn {
+    font-size: 12px;
+    padding: 10px 25px; }
+  .hero__me-btn {
+    margin-right: 10px; } }
+
+/*# sourceMappingURL=hero.css.map */
